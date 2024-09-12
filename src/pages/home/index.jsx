@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../../components/common/Header";
 
 const Home = () => {
   return (
     <>
-      <div className="font-bold">Hello world!</div>
+      <Header isLoggedIn={false}></Header>
     </>
   );
 };
