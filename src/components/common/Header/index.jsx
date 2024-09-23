@@ -14,7 +14,7 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="header-nav bg-black flex justify-content-between">
+      <nav className="header-nav bg- flex justify-content-between">
         <div className="org-logo">
           <img src={orgLogo} />
         </div>

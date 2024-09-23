@@ -6,7 +6,7 @@ import AppRouter from "./App/AppRouter";
 import Home from "./pages/home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-function () {
+function App() {
   return (
     <>
       <BrowserRouter>
@@ -19,4 +19,4 @@ function () {
 }
 
 export default App;
-App
+App;
